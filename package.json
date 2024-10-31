@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "ts-node src/app.ts",
     "start": "vercel dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"typescript",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vercel-build": "echo hello"
   },
   "keywords": [],
   "author": "",
